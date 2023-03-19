@@ -1,3 +1,4 @@
+import 'package:app1/home%20_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,14 +10,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    
+    
     // ignore: prefer_const_constructors
     return MaterialApp(
-        home: Material(
-      child: Center(
-        child: Container(
-          child: Text("welcome to flutter"),
-        ),
-      ),
-    ));
+        home: Homepage(),
+    );
   }
 }

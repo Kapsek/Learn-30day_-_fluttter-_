@@ -28,6 +28,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+          
         body: InkWell(
             onTap: () {
               setState(() {
@@ -78,11 +79,11 @@ class _LoginPageState extends State<LoginPage> {
                                   name = value;
                                   setState(() {});
                                 },
-                              ),
+                              ),     
                               TextFormField(
                                   obscureText: true,
                                   decoration: InputDecoration(
-                                    hintText: "Enter Password",
+                                  hintText: "Enter Password",
                                     labelText: "Password",
                                   ),
                                   validator: (value) {

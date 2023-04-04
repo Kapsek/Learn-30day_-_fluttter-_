@@ -1,4 +1,5 @@
 import 'package:app1/pages/login_page.dart';
+import 'package:app1/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 
 class Homepage extends StatelessWidget {
@@ -12,7 +13,7 @@ class Homepage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Catalog App"),
       ),
-      drawer: Drawer(),
+      drawer:MyDrawer(),
       body: Center(
         child: InkWell(
           onTap: () {
